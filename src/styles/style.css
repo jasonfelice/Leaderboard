@@ -47,6 +47,16 @@ main {
   min-height: 300px;
 }
 
+.score {
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.score:nth-child(even) {
+  background-color: #efefef;
+}
+
 main > div {
   padding: 1rem;
 }
