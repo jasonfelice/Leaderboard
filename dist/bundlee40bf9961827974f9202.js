@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Courier New\", Courier, monospace;\n}\n\nh1 {\n  font-size: 4rem;\n  text-align: center;\n  padding: 1rem;\n  margin-bottom: 10rem;\n}\n\nh2 {\n  font-size: 2rem;\n  text-align: center;\n}\n\nbutton {\n  padding: 0.5rem 1rem;\n}\n\nmain {\n  display: flex;\n  justify-content: center;\n  gap: 5rem;\n}\n\n.scores {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n  width: 40%;\n}\n\n.scores-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 1rem;\n}\n\n.recent-scores {\n  border: 2px solid #000;\n  width: 100%;\n  min-height: 300px;\n}\n\n.score {\n  padding: 1rem;\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.score:nth-child(even) {\n  background-color: #efefef;\n}\n\nmain > div {\n  padding: 1rem;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.add-score form {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.add-score form input {\n  padding: 0.5rem 1rem;\n}\n\n.add-score form button {\n  align-self: flex-end;\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,8CAAA;AACF;;AAEA;EACE,eAAA;EACA,kBAAA;EACA,aAAA;EACA,oBAAA;AACF;;AAEA;EACE,eAAA;EACA,kBAAA;AACF;;AAEA;EACE,oBAAA;AACF;;AAEA;EACE,aAAA;EACA,uBAAA;EACA,SAAA;AACF;;AAEA;EACI,aAAA;EACA,sBAAA;EACA,SAAA;EACA,UAAA;AACJ;;AAEA;EACI,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,SAAA;AACJ;;AAEA;EACE,sBAAA;EACA,WAAA;EACA,iBAAA;AACF;;AAEA;EACE,aAAA;EACA,iBAAA;EACA,gBAAA;AACF;;AAEA;EACE,yBAAA;AACF;;AAEA;EACE,aAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AACF;;AAEA;EACE,oBAAA;AACF;;AAEA;EACE,oBAAA;AACF","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'Courier New', Courier, monospace;\r\n}\r\n\r\nh1 {\r\n  font-size: 4rem;\r\n  text-align: center;\r\n  padding: 1rem;\r\n  margin-bottom: 10rem;\r\n}\r\n\r\nh2 {\r\n  font-size: 2rem;\r\n  text-align: center;\r\n}\r\n\r\nbutton {\r\n  padding: 0.5rem 1rem;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 5rem;\r\n}\r\n\r\n.scores {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 1rem;\r\n    width: 40%;\r\n}\r\n\r\n.scores-header {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    gap: 1rem;\r\n}\r\n\r\n.recent-scores {\r\n  border: 2px solid #000;\r\n  width: 100%;\r\n  min-height: 300px;\r\n}\r\n\r\n.score {\r\n  padding: 1rem;\r\n  font-size: 1.1rem;\r\n  font-weight: 600;\r\n}\r\n\r\n.score:nth-child(even) {\r\n  background-color: #efefef;\r\n}\r\n\r\nmain > div {\r\n  padding: 1rem;\r\n}\r\n\r\n.add-score {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\n.add-score form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\n.add-score form input {\r\n  padding: 0.5rem 1rem;\r\n}\r\n\r\n.add-score form button {\r\n  align-self: flex-end;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Courier New\", Courier, monospace;\n}\n\nh1 {\n  font-size: 4rem;\n  text-align: center;\n  padding: 1rem;\n  margin-bottom: 10rem;\n}\n\nh2 {\n  font-size: 2rem;\n  text-align: center;\n}\n\nbutton {\n  padding: 0.5rem 1rem;\n}\n\nmain {\n  display: flex;\n  justify-content: center;\n  gap: 5rem;\n}\n\n.scores {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n  width: 40%;\n}\n\n.scores-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 1rem;\n}\n\n.recent-scores {\n  border: 2px solid #000;\n  width: 100%;\n  min-height: 300px;\n}\n\n.score {\n  padding: 1rem;\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.score:nth-child(even) {\n  background-color: #efefef;\n}\n\nmain > div {\n  padding: 1rem;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.add-score form {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.add-score form input {\n  padding: 0.5rem 1rem;\n}\n\n.add-score form button {\n  align-self: flex-end;\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,8CAAA;AACF;;AAEA;EACE,eAAA;EACA,kBAAA;EACA,aAAA;EACA,oBAAA;AACF;;AAEA;EACE,eAAA;EACA,kBAAA;AACF;;AAEA;EACE,oBAAA;AACF;;AAEA;EACE,aAAA;EACA,uBAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;EACA,UAAA;AACF;;AAEA;EACE,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,SAAA;AACF;;AAEA;EACE,sBAAA;EACA,WAAA;EACA,iBAAA;AACF;;AAEA;EACE,aAAA;EACA,iBAAA;EACA,gBAAA;AACF;;AAEA;EACE,yBAAA;AACF;;AAEA;EACE,aAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AACF;;AAEA;EACE,oBAAA;AACF;;AAEA;EACE,oBAAA;AACF","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'Courier New', Courier, monospace;\r\n}\r\n\r\nh1 {\r\n  font-size: 4rem;\r\n  text-align: center;\r\n  padding: 1rem;\r\n  margin-bottom: 10rem;\r\n}\r\n\r\nh2 {\r\n  font-size: 2rem;\r\n  text-align: center;\r\n}\r\n\r\nbutton {\r\n  padding: 0.5rem 1rem;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 5rem;\r\n}\r\n\r\n.scores {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n  width: 40%;\r\n}\r\n\r\n.scores-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  gap: 1rem;\r\n}\r\n\r\n.recent-scores {\r\n  border: 2px solid #000;\r\n  width: 100%;\r\n  min-height: 300px;\r\n}\r\n\r\n.score {\r\n  padding: 1rem;\r\n  font-size: 1.1rem;\r\n  font-weight: 600;\r\n}\r\n\r\n.score:nth-child(even) {\r\n  background-color: #efefef;\r\n}\r\n\r\nmain > div {\r\n  padding: 1rem;\r\n}\r\n\r\n.add-score {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\n.add-score form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\n.add-score form input {\r\n  padding: 0.5rem 1rem;\r\n}\r\n\r\n.add-score form button {\r\n  align-self: flex-end;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -540,12 +540,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (({ name, score }) => {
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (({ user, score }) => {
   const mainWrapper = document.querySelector('.recent-scores');
   const scoreWrapper = document.createElement('div');
   scoreWrapper.classList.add('score');
   const text = document.createElement('span');
-  text.innerText = `${name}: ${score}`;
+  text.innerText = `${user}: ${score}`;
   scoreWrapper.appendChild(text);
   mainWrapper.appendChild(scoreWrapper);
 });
@@ -560,24 +560,94 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _addScore_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addScore.js */ "./src/modules/addScore.js");
+/* harmony import */ var _getScores_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getScores.js */ "./src/modules/getScores.js");
+/* harmony import */ var _postScore_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./postScore.js */ "./src/modules/postScore.js");
+
+
 
 
 const nameField = document.getElementById('userName');
 const scoreField = document.getElementById('userScore');
 const submitScore = document.getElementById('submitScore');
+const refreshButton = document.getElementById('refresh');
+
+refreshButton.addEventListener('click', async () => {
+  let userScores = [];
+  try {
+    userScores = await (0,_getScores_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  } catch (e) {
+    return `Error! ${e}`;
+  }
+  if (userScores.result.length > 0) {
+    userScores.result.forEach((arr) => {
+      (0,_addScore_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
+        user: arr.user,
+        score: arr.score,
+      });
+    });
+  }
+  return 'Added scores';
+});
 
 submitScore.addEventListener('click', (e) => {
   e.preventDefault();
-  const name = nameField.value;
+  const user = nameField.value;
   const score = scoreField.value;
-  if (name && score) {
+  if (user && score) {
     (0,_addScore_js__WEBPACK_IMPORTED_MODULE_0__["default"])({
-      name,
+      user,
+      score,
+    });
+    (0,_postScore_js__WEBPACK_IMPORTED_MODULE_2__["default"])({
+      user,
       score,
     });
     scoreField.value = '';
     nameField.value = '';
   }
+});
+
+/***/ }),
+
+/***/ "./src/modules/getScores.js":
+/*!**********************************!*\
+  !*** ./src/modules/getScores.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (async () => {
+  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/t49nM0xxQMcedjKnsxRS/scores';
+  return (await fetch(url)).json();
+});
+
+/***/ }),
+
+/***/ "./src/modules/postScore.js":
+/*!**********************************!*\
+  !*** ./src/modules/postScore.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (({ user, score }) => {
+  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/t49nM0xxQMcedjKnsxRS/scores';
+  fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      user,
+      score,
+    }),
+  });
 });
 
 /***/ })
@@ -670,4 +740,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle8c4b0540e0ec777baa82.js.map
+//# sourceMappingURL=bundlee40bf9961827974f9202.js.map
