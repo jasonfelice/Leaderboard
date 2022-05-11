@@ -1,16 +1,41 @@
 import addScore from './addScore.js';
+import getScores from './getScores.js';
+import postScore from './postScore.js';
 
 const nameField = document.getElementById('userName');
 const scoreField = document.getElementById('userScore');
 const submitScore = document.getElementById('submitScore');
+const refreshButton = document.getElementById('refresh');
+
+refreshButton.addEventListener('click', async () => {
+  let userScores = [];
+  try {
+    userScores = await getScores();
+  } catch (e) {
+    return `Error! ${e}`;
+  }
+  if (userScores.result.length > 0) {
+    userScores.result.forEach((arr) => {
+      addScore({
+        user: arr.user,
+        score: arr.score,
+      });
+    });
+  }
+  return 'Added scores';
+});
 
 submitScore.addEventListener('click', (e) => {
   e.preventDefault();
-  const name = nameField.value;
+  const user = nameField.value;
   const score = scoreField.value;
-  if (name && score) {
+  if (user && score) {
     addScore({
-      name,
+      user,
+      score,
+    });
+    postScore({
+      user,
       score,
     });
     scoreField.value = '';
