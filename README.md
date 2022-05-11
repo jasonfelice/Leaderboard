@@ -8,7 +8,7 @@
 - webpack
 
 ## Live Demo
-[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/Leaderboard/blob/basic-ui/dist/index.html)
+[Live Demo Link](https://htmlpreview.github.io/?https://github.com/jasonfelice/Leaderboard/blob/lead-api/dist/index.html)
 
 ## Install
 
