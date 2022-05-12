@@ -13,6 +13,8 @@
   --text_color: #112031;
   --hover: #345b63;
   --hold: #152d35;
+  --success: #1a8a7b;
+  --fail: #b42626;
 }
 
 body {
@@ -119,6 +121,12 @@ input:focus {
   background: var(--hover);
 }
 
+.prompt-message {
+  display: none;
+}
+
+/* Utilities */
+
 .add-score form button {
   align-self: flex-end;
 }
@@ -141,4 +149,22 @@ input:focus {
 
 ::placeholder {
   color: var(--backgroundSecond);
+}
+
+.success {
+  display: block;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 7px 5px;
+  color: var(--background);
+  background-color: var(--success);
+}
+
+.fail {
+  display: block;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 7px 5px;
+  background-color: var(--fail);
+  color: var(--background);
 }

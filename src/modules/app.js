@@ -6,12 +6,22 @@ const nameField = document.getElementById('userName');
 const scoreField = document.getElementById('userScore');
 const submitScore = document.getElementById('submitScore');
 const refreshButton = document.getElementById('refresh');
+const clearList = () => {
+  const allScores = document.querySelectorAll('.score');
+  allScores.forEach((each) => each.remove());
+};
 
 refreshButton.addEventListener('click', async () => {
+  const promptMessage = document.getElementById('prompt');
+  clearList();
   let userScores = [];
   try {
     userScores = await getScores();
+    promptMessage.classList.toggle('success');
+    promptMessage.textContent = 'List has been updated successfully';
   } catch (e) {
+    promptMessage.classList.toggle('fail');
+    promptMessage.textContent = 'Something went wrong while updating the list';
     return `Error! ${e}`;
   }
   if (userScores.result.length > 0) {
