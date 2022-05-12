@@ -8,7 +8,7 @@
 - webpack
 
 ## Live Demo
-[Live Demo Link](https://jasonfelice.github.io/Leaderboard/dist/)
+[Live Demo Link](https://jasonfelice.github.io/Leaderboard/)
 
 ## Install
 
