@@ -8,9 +8,11 @@
 }
 
 :root {
-  --background: rgb(15, 15, 15);
-  --backgroundSecond: rgb(83, 82, 82);
-  --text_color: #fff;
+  --background: #d4ecdd;
+  --backgroundSecond: #acd3bb;
+  --text_color: #112031;
+  --hover: #345b63;
+  --hold: #152d35;
 }
 
 body {
@@ -31,7 +33,18 @@ h2 {
 }
 
 button {
+  border: none;
   padding: 0.5rem 1rem;
+  background: var(--text_color);
+  color: var(--background);
+}
+
+button:hover {
+  background: var(--hover);
+}
+
+button:active {
+  background: var(--hold);
 }
 
 main {
