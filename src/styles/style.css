@@ -104,8 +104,17 @@ main > div {
   gap: 1rem;
 }
 
-.add-score form input {
+input {
+  border: none;
   padding: 0.5rem 1rem;
+  background: var(--text_color);
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+input:focus {
+  outline: none;
+  background: var(--hover);
 }
 
 .add-score form button {
@@ -126,4 +135,8 @@ main > div {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--hover); 
+}
+
+::placeholder {
+  color: var(--backgroundSecond);
 }
