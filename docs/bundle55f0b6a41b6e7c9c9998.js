@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -20,8 +22,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Courier New\", Courier, monospace;\n}\n\nh1 {\n  font-size: 4rem;\n  text-align: center;\n  padding: 1rem;\n  margin-bottom: 10rem;\n}\n\nh2 {\n  font-size: 2rem;\n  text-align: center;\n}\n\nbutton {\n  padding: 0.5rem 1rem;\n}\n\nmain {\n  display: flex;\n  justify-content: center;\n  gap: 5rem;\n}\n\n.scores {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n  width: 40%;\n}\n\n.scores-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 1rem;\n}\n\n.recent-scores {\n  border: 2px solid #000;\n  width: 100%;\n  min-height: 300px;\n}\n\n.score {\n  padding: 1rem;\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.score:nth-child(even) {\n  background-color: #efefef;\n}\n\nmain > div {\n  padding: 1rem;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.add-score form {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.add-score form input {\n  padding: 0.5rem 1rem;\n}\n\n.add-score form button {\n  align-self: flex-end;\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,8CAAA;AACF;;AAEA;EACE,eAAA;EACA,kBAAA;EACA,aAAA;EACA,oBAAA;AACF;;AAEA;EACE,eAAA;EACA,kBAAA;AACF;;AAEA;EACE,oBAAA;AACF;;AAEA;EACE,aAAA;EACA,uBAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;EACA,UAAA;AACF;;AAEA;EACE,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,SAAA;AACF;;AAEA;EACE,sBAAA;EACA,WAAA;EACA,iBAAA;AACF;;AAEA;EACE,aAAA;EACA,iBAAA;EACA,gBAAA;AACF;;AAEA;EACE,yBAAA;AACF;;AAEA;EACE,aAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AACF;;AAEA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AACF;;AAEA;EACE,oBAAA;AACF;;AAEA;EACE,oBAAA;AACF","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'Courier New', Courier, monospace;\r\n}\r\n\r\nh1 {\r\n  font-size: 4rem;\r\n  text-align: center;\r\n  padding: 1rem;\r\n  margin-bottom: 10rem;\r\n}\r\n\r\nh2 {\r\n  font-size: 2rem;\r\n  text-align: center;\r\n}\r\n\r\nbutton {\r\n  padding: 0.5rem 1rem;\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 5rem;\r\n}\r\n\r\n.scores {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n  width: 40%;\r\n}\r\n\r\n.scores-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  gap: 1rem;\r\n}\r\n\r\n.recent-scores {\r\n  border: 2px solid #000;\r\n  width: 100%;\r\n  min-height: 300px;\r\n}\r\n\r\n.score {\r\n  padding: 1rem;\r\n  font-size: 1.1rem;\r\n  font-weight: 600;\r\n}\r\n\r\n.score:nth-child(even) {\r\n  background-color: #efefef;\r\n}\r\n\r\nmain > div {\r\n  padding: 1rem;\r\n}\r\n\r\n.add-score {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\n.add-score form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\n.add-score form input {\r\n  padding: 0.5rem 1rem;\r\n}\r\n\r\n.add-score form button {\r\n  align-self: flex-end;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: \"Work Sans\", sans-serif;\n}\n\n:root {\n  --background: #d4ecdd;\n  --backgroundSecond: #acd3bb;\n  --text_color: #112031;\n  --hover: #345b63;\n  --hold: #152d35;\n  --success: #1a8a7b;\n  --fail: #b42626;\n}\n\nbody {\n  background-color: var(--background);\n  color: var(--text_color);\n}\n\nh1 {\n  font-size: 3rem;\n  text-align: center;\n  padding: 1rem;\n  margin-bottom: 10rem;\n  text-shadow: -2px 5px 2px var(--backgroundSecond);\n}\n\nh2 {\n  font-size: 2rem;\n  text-align: center;\n}\n\nbutton {\n  border: none;\n  padding: 0.5rem 1rem;\n  background: var(--text_color);\n  color: var(--background);\n  transition: all 0.2s ease-out;\n}\n\nbutton:hover {\n  background: var(--hover);\n}\n\nbutton:active {\n  background: var(--hold);\n}\n\nmain {\n  display: flex;\n  justify-content: center;\n  gap: 5rem;\n  flex-flow: row wrap;\n}\n\n.scores {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n  width: 40%;\n  min-width: 380px;\n  box-shadow: 0 0 60px var(--backgroundSecond);\n}\n\n.scores-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 1rem;\n}\n\n.recent-scores {\n  border: 2px solid var(--text_color);\n  width: 100%;\n  min-height: 300px;\n  max-height: 400px;\n  overflow-y: scroll;\n}\n\n.score {\n  padding: 1rem;\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.score:nth-child(even) {\n  background-color: var(--backgroundSecond);\n}\n\nmain > div {\n  padding: 1rem;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\n.add-score form {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n\ninput {\n  border: none;\n  padding: 0.5rem 1rem;\n  background: var(--text_color);\n  color: #fff;\n  transition: all 0.3s ease-out;\n}\n\ninput:focus {\n  outline: none;\n  background: var(--hover);\n}\n\n.prompt-message {\n  display: none;\n}\n\n/* Utilities */\n.add-score form button {\n  align-self: flex-end;\n}\n\n::-webkit-scrollbar {\n  width: 5px;\n}\n\n::-webkit-scrollbar-track {\n  background: var(--backgroundSecond);\n}\n\n::-webkit-scrollbar-thumb {\n  background: var(--text_color);\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: var(--hover);\n}\n\n::placeholder {\n  color: var(--backgroundSecond);\n}\n\n.success {\n  display: block;\n  font-size: 12px;\n  border-radius: 5px;\n  padding: 7px 5px;\n  color: var(--background);\n  background-color: var(--success);\n}\n\n.fail {\n  display: block;\n  font-size: 12px;\n  border-radius: 5px;\n  padding: 7px 5px;\n  background-color: var(--fail);\n  color: var(--background);\n}", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAEA;EACE,SAAA;EACA,UAAA;EACA,sBAAA;EACA,oCAAA;AAAF;;AAGA;EACE,qBAAA;EACA,2BAAA;EACA,qBAAA;EACA,gBAAA;EACA,eAAA;EACA,kBAAA;EACA,eAAA;AAAF;;AAGA;EACE,mCAAA;EACA,wBAAA;AAAF;;AAGA;EACE,eAAA;EACA,kBAAA;EACA,aAAA;EACA,oBAAA;EACA,iDAAA;AAAF;;AAGA;EACE,eAAA;EACA,kBAAA;AAAF;;AAGA;EACE,YAAA;EACA,oBAAA;EACA,6BAAA;EACA,wBAAA;EACA,6BAAA;AAAF;;AAGA;EACE,wBAAA;AAAF;;AAGA;EACE,uBAAA;AAAF;;AAGA;EACE,aAAA;EACA,uBAAA;EACA,SAAA;EACA,mBAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;EACA,UAAA;EACA,gBAAA;EACA,4CAAA;AAAF;;AAGA;EACE,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,SAAA;AAAF;;AAGA;EACE,mCAAA;EACA,WAAA;EACA,iBAAA;EACA,iBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,aAAA;EACA,iBAAA;EACA,gBAAA;AAAF;;AAGA;EACE,yCAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,SAAA;AAAF;;AAGA;EACE,YAAA;EACA,oBAAA;EACA,6BAAA;EACA,WAAA;EACA,6BAAA;AAAF;;AAGA;EACE,aAAA;EACA,wBAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA,cAAA;AAEA;EACE,oBAAA;AADF;;AAIA;EACE,UAAA;AADF;;AAIA;EACE,mCAAA;AADF;;AAIA;EACE,6BAAA;AADF;;AAIA;EACE,wBAAA;AADF;;AAIA;EACE,8BAAA;AADF;;AAIA;EACE,cAAA;EACA,eAAA;EACA,kBAAA;EACA,gBAAA;EACA,wBAAA;EACA,gCAAA;AADF;;AAIA;EACE,cAAA;EACA,eAAA;EACA,kBAAA;EACA,gBAAA;EACA,6BAAA;EACA,wBAAA;AADF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');\r\n\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  font-family: 'Work Sans', sans-serif;\r\n}\r\n\r\n:root {\r\n  --background: #d4ecdd;\r\n  --backgroundSecond: #acd3bb;\r\n  --text_color: #112031;\r\n  --hover: #345b63;\r\n  --hold: #152d35;\r\n  --success: #1a8a7b;\r\n  --fail: #b42626;\r\n}\r\n\r\nbody {\r\n  background-color: var(--background);\r\n  color: var(--text_color);\r\n}\r\n\r\nh1 {\r\n  font-size: 3rem;\r\n  text-align: center;\r\n  padding: 1rem;\r\n  margin-bottom: 10rem;\r\n  text-shadow: -2px 5px 2px var(--backgroundSecond);\r\n}\r\n\r\nh2 {\r\n  font-size: 2rem;\r\n  text-align: center;\r\n}\r\n\r\nbutton {\r\n  border: none;\r\n  padding: 0.5rem 1rem;\r\n  background: var(--text_color);\r\n  color: var(--background);\r\n  transition: all 0.2s ease-out;\r\n}\r\n\r\nbutton:hover {\r\n  background: var(--hover);\r\n}\r\n\r\nbutton:active {\r\n  background: var(--hold);\r\n}\r\n\r\nmain {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 5rem;\r\n  flex-flow: row wrap;\r\n}\r\n\r\n.scores {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n  width: 40%;\r\n  min-width: 380px;\r\n  box-shadow: 0 0 60px var(--backgroundSecond);\r\n}\r\n\r\n.scores-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  gap: 1rem;\r\n}\r\n\r\n.recent-scores {\r\n  border: 2px solid var(--text_color);\r\n  width: 100%;\r\n  min-height: 300px;\r\n  max-height: 400px;\r\n  overflow-y: scroll;\r\n}\r\n\r\n.score {\r\n  padding: 1rem;\r\n  font-size: 1.1rem;\r\n  font-weight: 600;\r\n}\r\n\r\n.score:nth-child(even) {\r\n  background-color: var(--backgroundSecond);\r\n}\r\n\r\nmain > div {\r\n  padding: 1rem;\r\n}\r\n\r\n.add-score {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\n.add-score form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  gap: 1rem;\r\n}\r\n\r\ninput {\r\n  border: none;\r\n  padding: 0.5rem 1rem;\r\n  background: var(--text_color);\r\n  color: #fff;\r\n  transition: all 0.3s ease-out;\r\n}\r\n\r\ninput:focus {\r\n  outline: none;\r\n  background: var(--hover);\r\n}\r\n\r\n.prompt-message {\r\n  display: none;\r\n}\r\n\r\n/* Utilities */\r\n\r\n.add-score form button {\r\n  align-self: flex-end;\r\n}\r\n\r\n::-webkit-scrollbar {\r\n  width: 5px;\r\n}\r\n\r\n::-webkit-scrollbar-track {\r\n  background: var(--backgroundSecond);\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n  background: var(--text_color) \r\n}\r\n\r\n::-webkit-scrollbar-thumb:hover {\r\n  background: var(--hover); \r\n}\r\n\r\n::placeholder {\r\n  color: var(--backgroundSecond);\r\n}\r\n\r\n.success {\r\n  display: block;\r\n  font-size: 12px;\r\n  border-radius: 5px;\r\n  padding: 7px 5px;\r\n  color: var(--background);\r\n  background-color: var(--success);\r\n}\r\n\r\n.fail {\r\n  display: block;\r\n  font-size: 12px;\r\n  border-radius: 5px;\r\n  padding: 7px 5px;\r\n  background-color: var(--fail);\r\n  color: var(--background);\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -570,12 +573,22 @@ const nameField = document.getElementById('userName');
 const scoreField = document.getElementById('userScore');
 const submitScore = document.getElementById('submitScore');
 const refreshButton = document.getElementById('refresh');
+const clearList = () => {
+  const allScores = document.querySelectorAll('.score');
+  allScores.forEach((each) => each.remove());
+};
 
 refreshButton.addEventListener('click', async () => {
+  const promptMessage = document.getElementById('prompt');
+  clearList();
   let userScores = [];
   try {
     userScores = await (0,_getScores_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
+    promptMessage.classList.toggle('success');
+    promptMessage.textContent = 'List has been updated successfully';
   } catch (e) {
+    promptMessage.classList.toggle('fail');
+    promptMessage.textContent = 'Something went wrong while updating the list';
     return `Error! ${e}`;
   }
   if (userScores.result.length > 0) {
@@ -637,6 +650,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (({ user, score }) => {
+  const promptMessage = document.getElementById('prompt');
   const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/t49nM0xxQMcedjKnsxRS/scores';
   fetch(url, {
     method: 'POST',
@@ -647,6 +661,12 @@ __webpack_require__.r(__webpack_exports__);
       user,
       score,
     }),
+  }).then(() => {
+    promptMessage.classList.toggle('success');
+    promptMessage.textContent = 'Scores has been updated successfully';
+  }).catch(() => {
+    promptMessage.classList.toggle('fail');
+    promptMessage.textContent = 'Can\'t post the score. Something went wrong';
   });
 });
 
@@ -740,4 +760,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlee40bf9961827974f9202.js.map
+//# sourceMappingURL=bundle55f0b6a41b6e7c9c9998.js.map
