@@ -7,6 +7,19 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--backgroundSecond);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text_color);
+
+}
+
 :root {
   --background: #d4ecdd;
   --backgroundSecond: #acd3bb;
@@ -131,20 +144,9 @@ input:focus {
   align-self: flex-end;
 }
 
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--backgroundSecond);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--text_color) 
-}
-
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--hover); 
+  background: var(--hover);
+
 }
 
 ::placeholder {
