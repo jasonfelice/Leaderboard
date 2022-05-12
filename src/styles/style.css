@@ -37,6 +37,7 @@ button {
   padding: 0.5rem 1rem;
   background: var(--text_color);
   color: var(--background);
+  transition: all 0.2s ease-out;
 }
 
 button:hover {
