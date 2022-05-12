@@ -17,7 +17,6 @@
 
 ::-webkit-scrollbar-thumb {
   background: var(--text_color);
-
 }
 
 :root {
@@ -146,7 +145,6 @@ input:focus {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--hover);
-
 }
 
 ::placeholder {
