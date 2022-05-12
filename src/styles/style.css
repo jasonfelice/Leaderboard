@@ -110,3 +110,19 @@ main > div {
 .add-score form button {
   align-self: flex-end;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--backgroundSecond);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text_color) 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover); 
+}
