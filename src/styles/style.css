@@ -63,7 +63,7 @@ button:active {
   background: var(--hold);
 }
 
-main {
+section {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -104,7 +104,7 @@ main {
   background-color: var(--backgroundSecond);
 }
 
-main > div {
+section > div {
   padding: 1rem;
 }
 
