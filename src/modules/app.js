@@ -40,10 +40,6 @@ submitScore.addEventListener('click', (e) => {
   const user = nameField.value;
   const score = scoreField.value;
   if (user && score) {
-    addScore({
-      user,
-      score,
-    });
     postScore({
       user,
       score,
