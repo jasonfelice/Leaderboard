@@ -1,7 +1,7 @@
-export default ({ user, score }) => {
+export default async ({ user, score }) => {
   const promptMessage = document.getElementById('prompt');
   const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/t49nM0xxQMcedjKnsxRS/scores';
-  fetch(url, {
+  await fetch(url, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
